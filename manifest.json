@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Speed Controller",
+    "version": "1.0",
+    "description": "Adjust YouTube video speed with custom controls.",
+    "permissions": ["scripting", "activeTab"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://www.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
