@@ -1,0 +1,63 @@
+/* popup.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e2f;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    width: 220px;
+    border-radius: 8px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin: 0 0 15px;
+    color: #4cb5f5;
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: #4cb5f5;
+    border: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 10px;
+    width: 90%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  button:hover {
+    background-color: #38a1e0;
+  }
+  
+  button:active {
+    transform: scale(0.98);
+    background-color: #2f8bb8;
+  }
+  
+  input[type="number"] {
+    width: 60px;
+    padding: 8px;
+    font-size: 16px;
+    color: #333;
+    background-color: #ffffff;
+    border: 2px solid #4cb5f5;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 15px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="number"]:focus {
+    border-color: #38a1e0;
+    box-shadow: 0px 0px 8px rgba(76, 181, 245, 0.8);
+  }
+  
