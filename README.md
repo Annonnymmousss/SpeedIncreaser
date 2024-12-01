@@ -6,6 +6,11 @@ Features
 Increase Playback Speed: Adjust YouTube video speed from 1x up to 10x.
 Simple UI: Easy-to-use interface with simple controls.
 Custom Speed Control: Fine-tune the speed with predefined steps.
+
+
+
+
+
 <img width="480" alt="Screenshot 2024-12-01 at 5 43 49 PM" src="https://github.com/user-attachments/assets/c6b973ed-2346-41c0-a502-0d2681f3721b">
 
 
